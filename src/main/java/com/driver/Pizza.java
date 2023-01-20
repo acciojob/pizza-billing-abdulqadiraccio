@@ -78,8 +78,9 @@ if(extracheese){
             s+="Extra Toppings Added: 120"+'\n';
         }
         if(takeaway){
-            s+="Paperbag Added: 20" ;
+            s+="Paperbag Added: 20"+'\n';
         }
+        s+="Total Price: "+Integer.toString(price);
 return this.bill=s;
 
 
