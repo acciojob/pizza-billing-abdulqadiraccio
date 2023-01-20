@@ -80,7 +80,7 @@ if(extracheese){
         if(takeaway){
             s+="Paperbag Added: 20"+'\n';
         }
-        s+="Total Price: "+Integer.toString(price);
+        s+="Total Price: "+Integer.toString(price)+'\n';
 return this.bill=s;
 
 
